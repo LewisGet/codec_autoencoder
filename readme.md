@@ -22,12 +22,11 @@ image encode dataset + audio array
 ### Encoder
 
 input 1920 * 1080
-> 2073600 array
-> > 1036800 weight
-> > > 518400 weight
+> 1920 * 1080 array
+> > 2 * 2 * 959 * 539  weight
+> > > 2 * 2 * 479 * 269 weight
 
 ### Decoder
-> 518400 weight
-> > 1036800 weight
-> > > 2073600 array
-> > > reshape 1920 * 1080
+> 2 * 2 * 479 * 269 weight
+> > 2 * 2 * 959 * 539 weight
+> > > 1920 * 1080 array
